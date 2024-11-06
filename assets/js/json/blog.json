@@ -1,0 +1,86 @@
+{
+    "success": true,
+    "message": "Lista de artículos del blog recibida correctamente.",
+    "data": {
+      "articles": [
+        {
+          "id": 1,
+          "date": "2 may 2024",
+          "link": "#",
+          "image": "assets/resources/img/examples/articles/bl-1.png",
+          "title": "Elegancia Urbana: Tendencias Otoño-Invierno 2024",
+          "summary": "Explora la elegancia urbana con las últimas tendencias para la temporada otoño-invierno 2024. Desde abrigos oversized hasta prendas de punto acogedoras, esta temporada se trata de combinar estilo y comodidad. Los tonos neutros y los estampados de cuadros son los protagonistas de esta temporada, añadiendo un toque de sofisticación a cualquier conjunto. Descubre cómo incorporar las botas de montaña y los accesorios de cuero para completar tu look urbano. ¡Prepárate para deslumbrar en las calles de la ciudad con tu estilo impecable!",
+          "full-article": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque tincidunt elit, non malesuada magna varius vel. Nam tristique, nulla eget vehicula ultricies, sapien risus fringilla ligula, et facilisis orci arcu sed ante. Donec nec orci euismod, fermentum sapien sit amet, varius odio. Sed consequat, nulla vel vehicula vehicula, nunc dui faucibus nisi, eu ultricies tellus velit nec ipsum. Aliquam erat volutpat. Fusce auctor nibh non est vehicula rutrum. Phasellus nec nulla eros. Sed at urna velit. Donec consequat urna non mi vehicula tincidunt. Nam eu lacinia libero. Donec eget urna sed mauris finibus tempor. Donec luctus risus nulla, in faucibus purus ullamcorper id. Nulla vel efficitur purus, ac efficitur quam. Nulla facilisi.",
+          "author": "John Doe",
+          "views": 125,
+          "likes": 78,
+          "favorites": 32
+        },
+        {
+          "id": 2,
+          "date": "2 dic 2024",
+          "link": "#",
+          "image": "assets/resources/img/examples/articles/bl-2.png",
+          "title": "Tendencias Primavera-Verano 2024",
+          "summary": "Descubre las últimas tendencias en moda para la temporada primavera-verano 2024. Desde colores vibrantes hasta estampados florales, esta temporada está llena de estilo y frescura. Los vestidos midi y los conjuntos de dos piezas son imprescindibles para lucir a la moda esta temporada. No te pierdas las prendas inspiradas en los años 90 que están haciendo un regreso triunfal. ¡Prepárate para deslumbrar con tu estilo esta temporada!",
+          "full-article": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque tincidunt elit, non malesuada magna varius vel. Nam tristique, nulla eget vehicula ultricies, sapien risus fringilla ligula, et facilisis orci arcu sed ante. Donec nec orci euismod, fermentum sapien sit amet, varius odio. Sed consequat, nulla vel vehicula vehicula, nunc dui faucibus nisi, eu ultricies tellus velit nec ipsum. Aliquam erat volutpat. Fusce auctor nibh non est vehicula rutrum. Phasellus nec nulla eros. Sed at urna velit. Donec consequat urna non mi vehicula tincidunt. Nam eu lacinia libero. Donec eget urna sed mauris finibus tempor. Donec luctus risus nulla, in faucibus purus ullamcorper id. Nulla vel efficitur purus, ac efficitur quam. Nulla facilisi.",
+          "author": "Jane Smith",
+          "views": 98,
+          "likes": 45,
+          "favorites": 22
+        },
+        {
+          "id": 3,
+          "date": "2 agost 2024",
+          "link": "#",
+          "image": "assets/resources/img/examples/articles/bl-3.png",
+          "title": "Estilo Bohemio: Inspiración para la Primavera",
+          "summary": "Sumérgete en el encanto bohemio con las tendencias más destacadas para la primavera de este año. Desde vestidos largos hasta blusas vaporosas, esta temporada está llena de piezas que evocan la libertad y la creatividad del estilo boho. Los estampados florales y los detalles de encaje añaden un toque romántico a tu guardarropa primaveral. Descubre cómo combinar prendas sueltas y accesorios artesanales para crear looks bohemios chic que te harán destacar esta primavera. ¡Deja volar tu espíritu libre y abraza el estilo bohemio con confianza y estilo!",
+          "full-article": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque tincidunt elit, non malesuada magna varius vel. Nam tristique, nulla eget vehicula ultricies, sapien risus fringilla ligula, et facilisis orci arcu sed ante. Donec nec orci euismod, fermentum sapien sit amet, varius odio. Sed consequat, nulla vel vehicula vehicula, nunc dui faucibus nisi, eu ultricies tellus velit nec ipsum. Aliquam erat volutpat. Fusce auctor nibh non est vehicula rutrum. Phasellus nec nulla eros. Sed at urna velit. Donec consequat urna non mi vehicula tincidunt. Nam eu lacinia libero. Donec eget urna sed mauris finibus tempor. Donec luctus risus nulla, in faucibus purus ullamcorper id. Nulla vel efficitur purus, ac efficitur quam. Nulla facilisi.",
+          "author": "Emily Johnson",
+          "views": 73,
+          "likes": 32,
+          "favorites": 18
+        },
+        {
+          "id": 4,
+          "date": "10 oct 2024",
+          "link": "#",
+          "image": "assets/resources/img/examples/articles/bl-1.png",
+          "title": "Minimalismo Moderno: Claves para un Armario Versátil",
+          "summary": "Descubre cómo adoptar el minimalismo moderno en tu armario y crear conjuntos versátiles para cualquier ocasión. Desde prendas básicas hasta accesorios elegantes...",
+          "full-article": "Extended full article text for the fourth article.",
+          "author": "Minimalist Style Guide",
+          "views": 1300,
+          "likes": 700,
+          "favorites": 250
+        },
+        {
+          "id": 5,
+          "date": "15 jun 2024",
+          "link": "#",
+          "image": "assets/resources/img/examples/articles/bl-2.png",
+          "title": "Estampados Audaces: Cómo Incorporarlos a tu Estilo Personal",
+          "summary": "Aprende a incorporar estampados audaces en tu estilo personal y agregar un toque de energía y vitalidad a tus conjuntos diarios. Desde rayas llamativas hasta estampados abstractos...",
+          "full-article": "Extended full article text for the fifth article.",
+          "author": "Bold Prints Expert",
+          "views": 1600,
+          "likes": 850,
+          "favorites": 350
+        },
+        {
+          "id": 6,
+          "date": "20 mar 2024",
+          "link": "#",
+          "image": "assets/resources/img/examples/articles/bl-3.png",
+          "title": "El Arte de Combinar Texturas: Tips para Crear Looks Sofisticados",
+          "summary": "Descubre cómo combinar diferentes texturas en tus conjuntos y elevar tu estilo a nuevas alturas. Desde terciopelo suave hasta cuero texturizado...",
+          "full-article": "Extended full article text for the sixth article.",
+          "author": "Texture Mixing Guru",
+          "views": 1400,
+          "likes": 750,
+          "favorites": 300
+        }
+      ]
+    }
+  }
