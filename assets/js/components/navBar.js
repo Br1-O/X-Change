@@ -146,7 +146,7 @@ export const navBar = (isConnected = false) => {
                 userData.country = "";
 
                 //delete session data
-                freeSessionData("oshare_designs_session");
+                freeSessionData("x_change_session");
 
                 //get the current hash without the leading '#'
                 const hash = window.location.hash.slice(1);

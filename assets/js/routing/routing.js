@@ -260,7 +260,7 @@ export const updateContent = async() => {
                             userData[name]= value;
 
                             //update the sessionData base on the userData's variable data
-                            setSessionData("oshare_designs_session", JSON.stringify(userData));
+                            setSessionData("x_change_session", JSON.stringify(userData));
                             //update the localStorage information base on the userData's variable data
                             updateAccountData(userData);
 
@@ -384,7 +384,7 @@ window.addEventListener('hashchange', updateContent);
 document.addEventListener("DOMContentLoaded", () => {
 
     //update title attribute of loading page
-    document.title =  `Oshare Designs · Loading...`;
+    document.title =  ` X - Change · Loading...`;
 
     const loadingScreen = document.getElementById("loading-overlay");
     const body = document.querySelector("body");
@@ -402,7 +402,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
         //recover session data if user was connected
-        if(getSessionData("oshare_designs_session")){
+        if(getSessionData("x_change_session")){
             //set user object's data with session's data  
             setUserDataFromSessionData(userData);
         }

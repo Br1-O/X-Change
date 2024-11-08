@@ -3327,7 +3327,7 @@ tfoot span[data-active]:hover{
         font-size: 1.2rem;
         width: 100%;
 
-        background-color:  rgba(155, 88, 218, 0.635);
+        background-color:  var(--main-bg-color);
         padding: 0.2rem 0.5rem 0.2rem 0.7rem;
         border-radius: 15px 0px 0px 15px;
 
@@ -3387,7 +3387,7 @@ tfoot span[data-active]:hover{
         margin-left: 0.4rem;
     
         /* glass like effect */
-        background-color:  rgba(155, 88, 218);
+        background-color:  var(--main-bg-color);
         backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
 
@@ -3787,7 +3787,7 @@ tfoot span[data-active]:hover{
         font-size: 1.2rem;
         width: 100%;
 
-        background-color:  rgba(155, 88, 218, 0.635);
+        background-color:  var(--main-bg-color);
         padding: 0.2rem 0.5rem 0.2rem 0.7rem;
         border-radius: 15px 0px 0px 15px;
 
@@ -3847,7 +3847,7 @@ tfoot span[data-active]:hover{
         margin-left: 0.2rem;
     
         /* glass like effect */
-        background-color:  rgba(155, 88, 218);
+        background-color:  var(--main-bg-color);
         backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
 
@@ -4154,7 +4154,7 @@ tfoot span[data-active]:hover{
         font-size: 1.2rem;
         width: 100%;
 
-        background-color:  rgba(155, 88, 218, 0.635);
+        background-color:  var(--main-bg-color);
         padding: 0.2rem 0.5rem 0.2rem 0.7rem;
         border-radius: 15px 0px 0px 15px;
 
@@ -4214,7 +4214,7 @@ tfoot span[data-active]:hover{
         margin-left: 0.2rem;
     
         /* glass like effect */
-        background-color:  rgba(155, 88, 218);
+        background-color:  var(--main-bg-color);
         backdrop-filter: blur(15px);
         -webkit-backdrop-filter: blur(15px);
 

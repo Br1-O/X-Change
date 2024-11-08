@@ -75,17 +75,17 @@ export const validationLoginRegister = () => {
         let submitLogin = async () => {
           let validUser = false;
 
-          //check if oshare_designs object already exists in localstorage
-          let oshareLocal = searchInLocalStorage("oshare_designs");
+          //check if x-change object already exists in localstorage
+          let xchangeLocal = searchInLocalStorage("x_change");
 
           //if it exist
-          if (oshareLocal) {
+          if (xchangeLocal) {
 
             //parse the JSON into a Js object
-            oshareLocal = JSON.parse(oshareLocal);
+            xchangeLocal = JSON.parse(xchangeLocal);
 
             //iterate through users in the object
-            oshareLocal.users.forEach(user => {
+            xchangeLocal.users.forEach(user => {
               //check if email exists
               if (user.email == email) {
 
@@ -109,7 +109,7 @@ export const validationLoginRegister = () => {
                   }
     
                   //set session data
-                  setSessionData("oshare_designs_session", JSON.stringify(sessionData));
+                  setSessionData("x_change_session", JSON.stringify(sessionData));
 
                   //set user object
                   setUserDataFromSessionData(userData);
@@ -216,8 +216,8 @@ export const validationLoginRegister = () => {
         //verification to dummy data (later will be switched for fetch function to backend db)
         let submitRegister = async () => {
 
-          //check if oshare_designs object is already in localstorage
-          let oshareLocal = searchInLocalStorage("oshare_designs");
+          //check if x_change object is already in localstorage
+          let oshareLocal = searchInLocalStorage("x_change");
 
           //If not create empty object
           if (!oshareLocal) {
@@ -229,10 +229,10 @@ export const validationLoginRegister = () => {
             }
 
             //set empty object into localstorage
-            setLocalData("oshare_designs", JSON.stringify(oshareLocalObject));
+            setLocalData("x_change", JSON.stringify(oshareLocalObject));
 
             //get empty object from localstorage
-            oshareLocal = getLocalData("oshare_designs");
+            oshareLocal = getLocalData("x_change");
           }
 
           //parse the JSON into Js object
@@ -291,7 +291,7 @@ export const validationLoginRegister = () => {
             //add user to oshareLocal's users
             oshareLocal.users.push(user);
             //set localStorage data
-            setLocalData("oshare_designs", JSON.stringify(oshareLocal));
+            setLocalData("x_change", JSON.stringify(oshareLocal));
 
             //set data to user object
             userData.email = email;
@@ -314,7 +314,7 @@ export const validationLoginRegister = () => {
             }
 
             //set session data
-            setSessionData("oshare_designs_session", JSON.stringify(sessionData));
+            setSessionData("x_change_session", JSON.stringify(sessionData));
 
             //redirect to logged page
             redirectToPage((window.location.hash).slice(1), 0);

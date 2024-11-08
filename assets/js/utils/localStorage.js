@@ -24,8 +24,8 @@ export const searchInLocalStorage = (searchKey) => {
 
 export const searchUserInLocalStorage = (email) => {
 
-    //check if oshare_designs object already exists in localstorage
-    let oshareLocal = searchInLocalStorage("oshare_designs");
+    //check if x_change object already exists in localstorage
+    let oshareLocal = searchInLocalStorage("x_change");
 
     //parse the JSON into a Js object
     oshareLocal = JSON.parse(oshareLocal);
@@ -61,8 +61,8 @@ export const updateAccountData = (userData) => {
         userLocalData.country = userData.country;
         userLocalData.cart = userData.cart;
 
-        //check if oshare_designs object already exists in localstorage
-        let oshareLocal = searchInLocalStorage("oshare_designs");
+        //check if x_change object already exists in localstorage
+        let oshareLocal = searchInLocalStorage("x_change");
         
         //parse the JSON into a Js object
         oshareLocal = JSON.parse(oshareLocal);
@@ -79,7 +79,7 @@ export const updateAccountData = (userData) => {
         });
 
         //update the local storage db with the updated user
-        setLocalData("oshare_designs", JSON.stringify(oshareLocal));
+        setLocalData("x_change", JSON.stringify(oshareLocal));
         
         return true;
     }

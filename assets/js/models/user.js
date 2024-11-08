@@ -1,4 +1,4 @@
-let session = sessionStorage.getItem("oshare_designs_session") ? true : false;
+let session = sessionStorage.getItem("x_change_session") ? true : false;
 
 export let userData = {
 

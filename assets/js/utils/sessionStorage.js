@@ -13,9 +13,9 @@ export const freeSessionData = (key) => {
 export const setUserDataFromSessionData = (userData) => {
 
     //set user object base on sessionStorage
-    if (getSessionData("oshare_designs_session")) {
+    if (getSessionData("x_change_session")) {
 
-        let sessionData = JSON.parse(getSessionData("oshare_designs_session"));
+        let sessionData = JSON.parse(getSessionData("x_change_session"));
 
         //set user object
         userData.name = sessionData.name;
@@ -32,7 +32,7 @@ export const setUserDataFromSessionData = (userData) => {
         userData.isSessionSet = true;
     }
 
-    return getSessionData("oshare_designs_session");
+    return getSessionData("x_change_session");
 }
 
 export const modifySessionCart = (userData = {}) => {
@@ -41,14 +41,14 @@ export const modifySessionCart = (userData = {}) => {
     if (userData.isSessionSet) {
 
         //get session cart
-        let currentSession = (JSON.parse(getSessionData("oshare_designs_session")));
+        let currentSession = (JSON.parse(getSessionData("x_change_session")));
 
         //set session's cart to user object's cart
         currentSession.cart = userData.cart;
 
         //update session's data
         currentSession = JSON.stringify(currentSession);
-        setSessionData("oshare_designs_session", currentSession);
+        setSessionData("x_change_session", currentSession);
     }
 }
 
